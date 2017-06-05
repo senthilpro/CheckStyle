@@ -8,7 +8,7 @@ package com.checkstyle;
  *
  */
 public class SampleApp {
-public int sumOfNum(int a, int b) {
+public int sumOfNum(final int a, final int b) {
 	int sum = a + b;
 	return sum;
 }
