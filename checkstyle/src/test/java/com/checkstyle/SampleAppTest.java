@@ -27,4 +27,10 @@ public class SampleAppTest {
 	    int actual = new SampleApp().divOfNum(6, 3);
 	    assertNotEquals(3, actual);
 	  }
+	  
+	  @Test
+    public void testIsEligible() {
+      boolean actual = new SampleApp().isEligible(21);
+      assertEquals(true, actual);
+    }
 }

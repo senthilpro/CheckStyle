@@ -3,7 +3,6 @@
  */
 package com.checkstyle;
 
-
 /**
  * My <b>class</b>.
  * @see SampleApp
@@ -37,6 +36,19 @@ public class SampleApp {
       e.printStackTrace();
     }
     return div;
+  }
+
+  /**
+   * @param age
+   *          This is the first paramter to divOfNum method
+   * @return boolean This returns sum of numA and numB.
+   */
+  public final boolean isEligible(final int age) {
+    if (age > 18) {
+      return true;
+    } else {
+      return false;
+    }
   }
 
 }
