@@ -16,7 +16,7 @@ public class SampleApp {
    *          This is the second parameter to sumOfNum method
    * @return int This returns sum of numA and numB.
    */
-  public final int sumOfNum(final int a, final int b) {
+  public final int sumOfNum(int a, int b) {
     int sum = a + b;
     String ant = null;
     return sum;
