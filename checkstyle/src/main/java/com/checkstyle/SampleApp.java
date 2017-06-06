@@ -33,7 +33,7 @@ public class SampleApp {
     int div = 0;
     try {
       div = a / b;
-    } catch (ArithmeticException e) {
+    } catch (Throwable e) {
       e.printStackTrace();
     }
     return div;
