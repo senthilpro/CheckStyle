@@ -15,4 +15,16 @@ public class SampleAppTest {
 		int actual = new SampleApp().sumOfNum(3, 3);
 		assertNotEquals(5, actual);
 	}
+	
+	 @Test
+	  public void testDivNumbers() {
+	    int actual = new SampleApp().divOfNum(6, 2);
+	    assertEquals(3, actual);
+	  }
+	  
+	  @Test
+	  public void testDivNumbersFail() {
+	    int actual = new SampleApp().divOfNum(6, 3);
+	    assertNotEquals(3, actual);
+	  }
 }
